@@ -10,6 +10,7 @@ class m161007_101547_create_ldap_auth_assignment_table extends Migration
     public function up()
     {
         $this->createTable('{{%ldap_auth_assignment}}', [
+            'id' => $this->primaryKey(),
             'item_name' => $this->string()->notNull(),
             'user_id' => $this->string()->notNull(),
             'created_at' => $this->integer()->notNull(),

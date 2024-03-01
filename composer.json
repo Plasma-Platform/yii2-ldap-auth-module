@@ -1,6 +1,7 @@
 {
   "name": "templatemonster/ldap-auth",
   "description": "Yii2 module for mapping ldap to rbac.",
+  "version": "0.3.0",
   "keywords": [
     "auth",
     "microservice",
