@@ -15,7 +15,7 @@ class LdapWrapper
      */
     public function __construct($host, $port)
     {
-        $this->ldapConnection = ldap_connect($host, $port);
+        $this->ldapConnection = ldap_connect('ldap://' . $host . ':' . $port);
     }
 
     /**
